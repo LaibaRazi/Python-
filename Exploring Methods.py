@@ -22,3 +22,8 @@ print(str(6%6)+" Modulus") #modulus
 print("First Putting the Text"+str(2+8))
 # print("trying divide this time"+7/2) this is wrong you should write it as str first
 print("This time divide with str"+str(2/8))
+Cnum1=1
+Cnum2=2
+print("this is checking for numbers "+ str(Cnum2+Cnum1))
+
+
