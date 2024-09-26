@@ -44,4 +44,12 @@ print(namecap.count("taha"))
 print(str(namecap.find("a"))+"This is find") #gives the index of first occurance 
 
 #index is similar to find but if we aren't sure about 
-print(str(namecap.index("f")+"its index method")) # it will give you an error instead if you have used find it will give you -1
+# print(str(namecap.index("f")+"its index method")) ## it will give you an error instead if you have used find it will give you -1
+
+# islower
+
+print(str(namecap.islower())+" It gives the value in boolean")
+
+"""```
+islower is actually a boolean but to convert a text to a lowercase you have to do stringname.lower()
+"""
