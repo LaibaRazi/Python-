@@ -18,4 +18,6 @@ elif timestamphour >= 18 :
 else :
     print("wrong time!")
     
+timespam= time.strftime('%H')
+print(timespam+" this is last hour")
 
