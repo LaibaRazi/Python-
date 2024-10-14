@@ -9,7 +9,7 @@ data = {
 
 #dataframe2 
 DataMakeup = {
-    'Cate' : ['Eye','Lip'],
+    'Cate' : ['Eye','Lip','Lip','Eye'],
     'Brand' : ['Lakme','Loreal','J.','Khaadi']
 }
 
@@ -18,5 +18,4 @@ DataMakeup = {
 
 
 df= pd.DataFrame(dict([(k,pd.Series(v)) for k,v in DataMakeup.items()]))
-
 print(df)
